@@ -16,11 +16,11 @@ async function getData() {
 function populateTable() {
     for(let x = 0; x < usersArray[0].length; x++) {
         $('#user-table').append(`<tr>
-                        <td>${usersArray[0][x].id}</td>
-                        <td>${usersArray[0][x].email}</td>
-                        <td>${usersArray[0][x].firstName}</td>
-                        <td>${usersArray[0][x].lastName}</td>
-                        <td>${usersArray[0][x].state}</td>
+                                    <td>${usersArray[0][x].id}</td>
+                                    <td>${usersArray[0][x].email}</td>
+                                    <td>${usersArray[0][x].firstName}</td>
+                                    <td>${usersArray[0][x].lastName}</td>
+                                    <td>${usersArray[0][x].state}</td>
                                 </tr>`)
     }
 };
